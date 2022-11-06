@@ -255,6 +255,9 @@ h6 {
     z-index: 1030;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3) !important;
 }
+
+
+
 .topbar.navbar,
 .topbar.navbar.fixed-header {
     padding-top: 0px !important;
@@ -273,27 +276,27 @@ h6 {
 .topbar.navbar-default,
 .navbar {
     border: none !important;
+
 }
 .navbar-brand,
 .navbar-nav > li > a {
     text-shadow: none;
-    /*background-color: white;*/
-    /*opacity: 0.7;*/
 }
 .topbar.navbar-default {
     background-image: none !important;
     box-shadow: none;
-    /*background-color: white;*/
-    /*opacity: 0.7;*/
 }
 .topbar.navbar-expand-lg {
     padding: 15px 0 0 0 !important;
 }
+
+
 .simple-menu5.navbar-default,
 .simple-menu4.navbar-default,
 .bg-dark,
 .simple-menu2.navbar-default {
-    background-color: transparent !important;
+    /*background-color: transparent !important;*/
+    background-color: #333333 !important;;
     margin-bottom: 0;
 }
 .navbar-dark .navbar-nav .nav-link {
@@ -496,7 +499,7 @@ h6 {
 /*========================================== 4.BUTTON END ===========================================*/
 /*========================================== 5.READ MORE LINK START ===========================================*/
 .readmore {
-    color: #33a9ee;
+    color: #4abd1b;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -649,7 +652,7 @@ h6 {
 }
 
 .header2-bgimage .header-div-1 h1 {
-    color: #686669;
+    color: #4d4a4a;
     text-shadow: 0 1px 1px #6f7c55;
     font-size:45px;
     font-weight:600;
@@ -657,7 +660,7 @@ h6 {
     line-height:55px;
 }
 .header2-bgimage p {
-    color: #696363;
+    color: #733f3f;
     font-weight: 600;
     letter-spacing: 1px;
     margin: 0px auto;
@@ -1766,7 +1769,7 @@ label {
     -moz-outline-radius: 50% !important;
 }
 .gallery-caption i {
-    color: #33a9ee;
+    color: #4abd1b;
 }
 .gallery-inner img {
     border-radius: 0px;
@@ -3155,8 +3158,6 @@ only screen and (min-resolution: 1.5dppx) {
     }
     .navbar-nav > li > a {
         font-size: 13px;
-        background-color: white;
-        opacity: 0.7;
     }
     .navbar-default .navbar-toggler {
         margin-bottom: 0px;
@@ -3169,8 +3170,6 @@ only screen and (min-resolution: 1.5dppx) {
     .navbar-nav > li {
         padding-left: 1.3em;
         cursor: pointer;
-        background-color: white;
-        opacity: 0.7;
     }
     .navbar-nav > li:hover a,
     .navbar-nav > li:hover:before {
@@ -3193,8 +3192,6 @@ only screen and (min-resolution: 1.5dppx) {
     }
     .navbar-nav > li {
         padding: 8px 0;
-        background-color: white;
-        opacity: 0.7;
     }
     .team-col:hover .team-icon li:first-child {
         bottom: 35px !important;
@@ -3239,8 +3236,6 @@ only screen and (min-resolution: 1.5dppx) {
     }
     .navbar-nav > li {
         padding: 8px 0;
-        background-color: white;
-        opacity: 0.5;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-left: 0;
@@ -3691,8 +3686,6 @@ only screen and (min-resolution: 1.5dppx) {
     }
     .navbar-nav {
         padding-bottom: 0;
-        background-color: white;
-        opacity: 0.7;
     }
     .navbar-nav li:last-child a {
         padding-right: 0;
@@ -3754,4 +3747,50 @@ only screen and (min-resolution: 1.5dppx) {
 }
 
 /*========================================== 20.MEDIA QUERIES END ===========================================*/
- 
+@media only screen and (min-width: 0px) {
+    iframe {
+        max-width: 220px;
+        height: 280px;
+        margin-right: 20px;
+        margin-left: 25px;
+    }
+}
+
+
+@media only screen and (min-width: 340px) {
+    iframe {
+        max-width: 300px;
+        height: 280px;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 576px) {
+    iframe {
+        min-width: 550px;
+        height: 280px;
+        margin-right: 20px;
+        margin-left: 20px;
+
+    }
+}
+/* Для средних устройств (планшеты) */
+@media only screen and (min-width: 992px) {
+    iframe {
+        min-width: 350px;
+        height: 280px;
+        margin-right: 20px;
+        margin-left: 20px;
+
+    }
+}
+/* Для больших устройств (ноуты, пк) */
+@media only screen and (min-width: 1200px) {
+    iframe {
+        min-width: 500px; height: 280px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+}
