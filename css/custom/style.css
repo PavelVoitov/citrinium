@@ -277,10 +277,14 @@ h6 {
 .navbar-brand,
 .navbar-nav > li > a {
     text-shadow: none;
+    /*background-color: white;*/
+    /*opacity: 0.7;*/
 }
 .topbar.navbar-default {
     background-image: none !important;
     box-shadow: none;
+    /*background-color: white;*/
+    /*opacity: 0.7;*/
 }
 .topbar.navbar-expand-lg {
     padding: 15px 0 0 0 !important;
@@ -3151,6 +3155,8 @@ only screen and (min-resolution: 1.5dppx) {
     }
     .navbar-nav > li > a {
         font-size: 13px;
+        background-color: white;
+        opacity: 0.7;
     }
     .navbar-default .navbar-toggler {
         margin-bottom: 0px;
@@ -3163,6 +3169,8 @@ only screen and (min-resolution: 1.5dppx) {
     .navbar-nav > li {
         padding-left: 1.3em;
         cursor: pointer;
+        background-color: white;
+        opacity: 0.7;
     }
     .navbar-nav > li:hover a,
     .navbar-nav > li:hover:before {
@@ -3185,6 +3193,8 @@ only screen and (min-resolution: 1.5dppx) {
     }
     .navbar-nav > li {
         padding: 8px 0;
+        background-color: white;
+        opacity: 0.7;
     }
     .team-col:hover .team-icon li:first-child {
         bottom: 35px !important;
@@ -3229,6 +3239,8 @@ only screen and (min-resolution: 1.5dppx) {
     }
     .navbar-nav > li {
         padding: 8px 0;
+        background-color: white;
+        opacity: 0.5;
     }
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-left: 0;
@@ -3679,6 +3691,8 @@ only screen and (min-resolution: 1.5dppx) {
     }
     .navbar-nav {
         padding-bottom: 0;
+        background-color: white;
+        opacity: 0.7;
     }
     .navbar-nav li:last-child a {
         padding-right: 0;
