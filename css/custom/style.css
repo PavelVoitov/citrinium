@@ -310,7 +310,7 @@ h6 {
     font-size: 18px;
     font-weight: 600;
     letter-spacing: 1px;
-    color: #fd0101;
+    color: #e51212;
     float: left;
     margin-bottom: 10px;
 }
@@ -1373,7 +1373,7 @@ label {
     width: 100%;
 }
 .form-div .input-group .input-group-addon {
-    background-color:#33A9EE;
+    background-color: #4abc1b;
 }
 .form-div .input-group .input-group-addon {
     border-radius: 0 5px 5px 0;
@@ -2566,7 +2566,7 @@ label {
 .testimonial-name-2,
 .testimonial-name-4,
 .testimonial-name-5 {
-    color: #33A9EE !important;
+    color: #fd0101 !important;
     font-size: 13px;
     font-weight: 600;
     letter-spacing: 1px;
