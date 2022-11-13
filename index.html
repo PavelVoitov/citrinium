@@ -241,27 +241,24 @@
                                    maxlength="50"
                                    required autocomplete="off">
                         </div>
-                        <div class="form-div form-div-right">
-                            <div class='input-group date datepicker'>
-                                <input type='text' class="form-input" value="" name="appointment-date"
-                                       placeholder="Выберите дату" required autocomplete="off"/>
-                                <span class="input-group-addon">
-											<span class="fa fa-calendar"></span>
-										</span>
-                            </div>
-                        </div>
+
                         <div class="form-div">
-                            <input class="form-input" type="text" name="email" value=""
-                                   placeholder="Введите номер телефона"
-                                   minlength="7"
-                                   maxlength="20"
-                                   required autocomplete="off">
+                            <input  class="form-input"
+                                    name="email"
+                                    placeholder="+375 (__) ___-__-__"
+                                    data-slots="_"
+                                    required autocomplete="off">
                         </div>
+
                         <div class="form-div">
                             <textarea class="form-textarea" name="message"
-                                      placeholder="Пожалуйста, оставьте комментарий" cols="40"
-                                      rows="5" required autocomplete="off"></textarea>
+                                      placeholder="Пожалуйста, оставьте комментарий"
+                                      cols="40"
+                                      rows="5"
+                                      maxlength="500"
+                                      required autocomplete="off"></textarea>
                         </div>
+
                         <div class="form-btn button text-center">
                             <button class="btn btn-1" type="submit"><span>ЗАПИСЬ</span></button>
                         </div>
@@ -284,7 +281,6 @@
 
             <div class="res-footer-posts-col">
                 <div class="distab footer-contact-bottom-1">
-
                     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Aaf665600d4984ebe06b33815a17dd0c9dd198528d760eea3eb89256146129c01&amp;source=constructor" frameborder="0">
                     </iframe>
                 </div>
@@ -487,5 +483,7 @@
 <script type="text/javascript" src="js/custom/custom.js"></script>
 <!-- RETINA JS FILES -->
 <script type="text/javascript" src="js/vendor/retina.js"></script>
+<!-- PHONE JS FILES -->
+<script type="text/javascript" src="js/phone.js"></script>
 </body>
 </html>
