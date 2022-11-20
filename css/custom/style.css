@@ -644,7 +644,7 @@ h6 {
 
 /* Clinic Header */
 .header2-bgimage {
-    background-image: url("../../images/headerfon.jpg");
+    background-image: url("../../images/headerfon01.jpg");
 }
 .header2-bgimage .heading-padding {
     padding-bottom: 220px;
@@ -652,16 +652,18 @@ h6 {
 }
 
 .header2-bgimage .header-div-1 h1 {
-    color: #4d4a4a;
-    text-shadow: 0 1px 1px #6f7c55;
+    color: #fcfcfc;
+    text-shadow: 3px 2px 2px #232322;
     font-size:45px;
     font-weight:600;
     letter-spacing:1px;
     line-height:55px;
 }
 .header2-bgimage p {
-    color: #733f3f;
-    font-weight: 600;
+    color: #fffdfd;
+    text-shadow: 2px 1px 2px #090808;
+    font-size: 14px;
+    font-weight: 500;
     letter-spacing: 1px;
     margin: 0px auto;
     width: 75%;
@@ -1251,7 +1253,7 @@ h6 {
 
 
 .appointment-bgimage {
-    background-image: url("../../images/bookFon.jpg");
+    background-image: url("../../images/bookFon01.jpg");
     padding-bottom: 150px;
     padding-top: 150px;
 }
@@ -3117,11 +3119,11 @@ only screen and (min-resolution: 1.5dppx) {
 
     /* Clinic Header Retina Image */
     .header2-bgimage {
-        background-image: url("../../images/headerfon.jpg");
+        background-image: url("../../images/headerMobileFon01.jpg");
     }
     /* Clinic Appointment Form Retina Image */
     .appointment-bgimage {
-        background-image: url("../../images/bookFon.jpg");
+        background-image: url("../../images/bookFon01.jpg");
     }
 
 
